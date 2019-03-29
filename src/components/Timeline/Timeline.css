@@ -1,0 +1,46 @@
+.vertical-timeline-element-content {
+    background-color:black;
+}
+
+div.vertical-timeline-element-content.bounce-in::before{
+    border-left-color:black;
+    color:black;
+}
+
+.vertical-timeline--two-columns .vertical-timeline-element.vertical-timeline-element--right .vertical-timeline-element-content::before, .vertical-timeline--two-columns .vertical-timeline-element:nth-child(even):not(.vertical-timeline-element--left) .vertical-timeline-element-content::before{
+    border-right-color: black;
+    color:black;
+}
+
+.vertical-timeline--two-columns .vertical-timeline-element.vertical-timeline-element--right .vertical-timeline-element-content .vertical-timeline-element-date, .vertical-timeline--two-columns .vertical-timeline-element:nth-child(even):not(.vertical-timeline-element--left) .vertical-timeline-element-content .vertical-timeline-element-date{
+    text-align: unset;
+    color:black;
+}
+
+.vertical-timeline-element-title {
+    color:white;
+}
+
+.vertical-timeline--two-columns .vertical-timeline-element-content .vertical-timeline-element-date {
+    color:black;
+    font-size:10vmin;
+    opacity:1;
+}
+
+.button {
+    font-size:3vmin;
+    margin-top:0vmin;
+}
+
+.vertical-timeline-element-title {
+    font-size:3vmin;
+}
+
+.genre-button {
+    font-size:5vmin;
+}
+
+.genre {
+    font-size:3vmin;
+    color:black;
+}
